@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="heaven.css">
+    <title>Clouds</title>
+</head>
+<body>
+ <div class="banner">
+      <h2 id="text">Heaven</h2>
+      <div class="clouds">
+        <img src="img/cloud1.png" style="--i:1;">
+        <img src="img/cloud2.png" style="--i:2;">
+        <img src="img/cloud3.png" style="--i:3;">
+        <img src="img/cloud4.png" style="--i:4;">
+        <img src="img/cloud5.png" style="--i:5;">
+        <img src="img/cloud1.png" style="--i:10;">
+        <img src="img/cloud2.png" style="--i:9;">
+        <img src="img/cloud3.png" style="--i:8;">
+        <img src="img/cloud4.png" style="--i:7;">
+        <img src="img/cloud5.png" style="--i:6;">
+      </div>
+    </div>
+   <section>
+       <h2>Tengoku no umisha</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam esse id 
+           quaerat necessitatibus ducimus sint voluptates tenetur. Amet blanditiis
+            ea porro fugit ab, saepe repudiandae ipsum, repellat ad perferendis commodi.</p>
+   </section> 
+   <script type="text/javascript">
+      let text = document.getElementById('text')
+      window.addEventListener('scroll' , function(){
+        let value = indow.sroly;
+        text.style.marginBottom = value* + 'px';
+      })
+   </script>    
+</body>
+</html>
